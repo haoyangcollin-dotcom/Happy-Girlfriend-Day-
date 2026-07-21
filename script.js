@@ -1,160 +1,44 @@
-function continuePage(){
+function start(){
 
 
-document.body.innerHTML = `
-
-<div class="card">
-
-
-<h1>Zhenyi ❤️</h1>
-
-
-<p>
-
-I have one important question...
-
-<br><br>
-
-Will you go on a date with me? 💕
-
-<br><br>
-
-📅 1 August
-
-<br>
-
-🕖 7:00 PM
-
-<br>
-
-📍 Surprise
-
-</p>
-
-
-
-<button onclick="yesButton()">
-YES ❤️
-</button>
-
-
-<button id="noButton" onmouseover="moveButton()">
-NO 😜
-</button>
-
-
-
-</div>
-
-`;
-
-}
-
-
-
-function moveButton(){
-
-
-let button =
-document.getElementById("noButton");
-
-
-button.style.position="absolute";
-
-
-button.style.left =
-Math.random()*80 + "%";
-
-
-button.style.top =
-Math.random()*80 + "%";
-
-
-}
-
-
-
-
-function yesButton(){
-
-
-document.body.innerHTML = `
-
+document.body.innerHTML=`
 
 <div class="card">
-
 
 <h1>
-YAY!! ❤️🎉
+Hey Zhenyi ❤️
 </h1>
 
 
 <p>
 
-u can only say yes ❤️
+I made this little surprise just for you.
 
 <br><br>
 
-I can't wait to spend this special day with you.
+Every moment with you means a lot to me.
+
+You make me the happiest boy hehe
 
 <br><br>
 
-I hope we make more amazing memories together.
-
-<br><br>
-
-Love,
-<br>
-
-Collin ❤️
+I hope we can spend the rest of lives together ❤️
 
 </p>
 
 
-</div>
 
+<button onclick="letter()">
+
+Continue 💌
+
+</button>
+
+
+</div>
 
 `;
 
-
-createHearts();
-
-
-}
-
-
-
-
-function createHearts(){
-
-
-for(let i=0;i<30;i++){
-
-
-let heart=document.createElement("div");
-
-
-heart.innerHTML="❤️";
-
-
-heart.style.position="absolute";
-
-
-heart.style.left=
-Math.random()*100+"%";
-
-
-heart.style.top=
-Math.random()*100+"%";
-
-
-heart.style.fontSize=
-Math.random()*30+15+"px";
-
-
-document.body.appendChild(heart);
-
-
-}
+flowers();
 
 }
