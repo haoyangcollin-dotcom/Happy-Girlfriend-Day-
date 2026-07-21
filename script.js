@@ -94,7 +94,7 @@ function gallery(){
 document.querySelector(".card").innerHTML = `
 
 <h1>
-Our Memories ❤️
+My favourite photos ❤️
 </h1>
 
 
@@ -200,17 +200,17 @@ function yes(){
 document.querySelector(".card").innerHTML = `
 
 <h1>
-YAY!! ❤️🎉
+YAY!! ❤️
 </h1>
 
 
 <p>
 
-Thank you for saying yes Zhenyi ❤️
+You better choose yes 
 
 <br><br>
 
-I love you and I can't wait to spend this special day with you.
+I love you hehe
 
 <br><br>
 
