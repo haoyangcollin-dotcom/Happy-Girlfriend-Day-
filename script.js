@@ -97,10 +97,10 @@ My favourite pictures of us ❤️
 </h1>
 
 
-<img src="images/photo1.jpg">
+<img src="photo1.jpg">
 
 
-<img src="images/photo2.jpg">
+<img src="/photo2.jpg">
 
 
 
