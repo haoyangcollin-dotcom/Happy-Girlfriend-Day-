@@ -18,7 +18,8 @@ I made you a little surprise.
 
 <br><br>
 
-You make me the happiest boy, and I hope I can make you the happiest girl too ❤️
+You make me the happiest boy,
+and I hope I can make you the happiest girl too ❤️
 
 </p>
 
@@ -36,10 +37,10 @@ Continue 💌
 
 
 
+
 function letter(){
 
 document.querySelector(".card").innerHTML = `
-
 
 <h1>
 A Letter For You 💌
@@ -54,8 +55,9 @@ Dear Zhenyi ❤️
 
 Thank you for being someone so special in my life.
 
-I appreciate everything you do for me, every conversation we have,
-and every memory we create together.
+I appreciate everything you do for me,
+every conversation we have,
+and every memory we share.
 
 <br><br>
 
@@ -91,9 +93,8 @@ function gallery(){
 
 document.querySelector(".card").innerHTML = `
 
-
 <h1>
-My favourite pictures of us ❤️
+Our Memories ❤️
 </h1>
 
 
@@ -102,6 +103,8 @@ My favourite pictures of us ❤️
 
 <img src="photo2.jpg">
 
+
+<br><br>
 
 
 <button onclick="question()">
@@ -122,7 +125,6 @@ One More Thing 💕
 function question(){
 
 document.querySelector(".card").innerHTML = `
-
 
 <h1>
 Zhenyi ❤️
@@ -156,7 +158,7 @@ YES ❤️
 </button>
 
 
-<button id="no" onmouseover="moveNo()">
+<button id="no" onclick="moveNo()">
 
 NO 😜
 
@@ -173,18 +175,18 @@ NO 😜
 
 function moveNo(){
 
-let button=document.getElementById("no");
+let button = document.getElementById("no");
 
 
-button.style.position="absolute";
+button.style.position = "absolute";
 
 
-button.style.left=
-Math.random()*80+"%";
+button.style.left =
+Math.random()*80 + "%";
 
 
-button.style.top=
-Math.random()*80+"%";
+button.style.top =
+Math.random()*80 + "%";
 
 
 }
@@ -196,7 +198,6 @@ Math.random()*80+"%";
 function yes(){
 
 document.querySelector(".card").innerHTML = `
-
 
 <h1>
 YAY!! ❤️🎉
@@ -227,8 +228,7 @@ Collin ❤️
 
 `;
 
-
-confetti();
+heartExplosion();
 
 }
 
@@ -236,32 +236,32 @@ confetti();
 
 
 
-function confetti(){
+function heartExplosion(){
 
-for(let i=0;i<50;i++){
+for(let i = 0; i < 50; i++){
 
-let heart=document.createElement("div");
-
-
-heart.innerHTML="❤️";
+let heart = document.createElement("div");
 
 
-heart.style.position="absolute";
+heart.innerHTML = "❤️";
 
 
-heart.style.left=
-Math.random()*100+"%";
+heart.style.position = "absolute";
 
 
-heart.style.top=
-Math.random()*100+"%";
+heart.style.left =
+Math.random()*100 + "%";
 
 
-heart.style.fontSize="25px";
+heart.style.top =
+Math.random()*100 + "%";
+
+
+heart.style.fontSize =
+"25px";
 
 
 document.body.appendChild(heart);
-
 
 }
 
