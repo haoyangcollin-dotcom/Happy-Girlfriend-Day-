@@ -100,7 +100,7 @@ My favourite pictures of us ❤️
 <img src="photo1.jpg">
 
 
-<img src="/photo2.jpg">
+<img src="photo2.jpg">
 
 
 
