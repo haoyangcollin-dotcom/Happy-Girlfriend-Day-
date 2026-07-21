@@ -9,17 +9,16 @@ Hey Zhenyi ❤️
 
 <p>
 
-I hope you dont mind its my first time trying this gotta put my programming skills to work
+I hope you don't mind, it's my first time trying this.
+I had to put my programming skills to work hehe.
 
 <br><br>
 
-Made you a little surprise
-
-You make me the happiest boy hehe
+I made you a little surprise.
 
 <br><br>
 
-I hope to make you the happiest girl too ❤️
+You make me the happiest boy, and I hope I can make you the happiest girl too ❤️
 
 </p>
 
@@ -31,8 +30,6 @@ Continue 💌
 </button>
 
 `;
-
-flowers();
 
 }
 
@@ -55,14 +52,15 @@ Dear Zhenyi ❤️
 
 <br><br>
 
-Thank you for being someone special in my life.
+Thank you for being someone so special in my life.
 
-I appreciate everything you do for me, every conversation,
-and every memory we share youre the best girlfriend.
+I appreciate everything you do for me, every conversation we have,
+and every memory we create together.
 
 <br><br>
 
-you mean the most to me
+You are the best girlfriend I could ask for,
+and you mean the most to me.
 
 <br><br>
 
@@ -83,8 +81,6 @@ Next 📸
 
 `;
 
-flowers();
-
 }
 
 
@@ -97,7 +93,7 @@ document.querySelector(".card").innerHTML = `
 
 
 <h1>
-Our Memories ❤️
+My favourite pictures of us ❤️
 </h1>
 
 
@@ -116,8 +112,6 @@ One More Thing 💕
 
 
 `;
-
-flowers();
 
 }
 
@@ -171,8 +165,6 @@ NO 😜
 
 `;
 
-flowers();
-
 }
 
 
@@ -213,11 +205,11 @@ YAY!! ❤️🎉
 
 <p>
 
-You better say yes ❤️
+Thank you for saying yes Zhenyi ❤️
 
 <br><br>
 
-I love you
+I love you and I can't wait to spend this special day with you.
 
 <br><br>
 
@@ -237,38 +229,6 @@ Collin ❤️
 
 
 confetti();
-
-}
-
-
-
-
-
-function flowers(){
-
-for(let i=0;i<20;i++){
-
-let flower=document.createElement("div");
-
-
-flower.innerHTML="🌸";
-
-
-flower.className="petal";
-
-
-flower.style.left=
-Math.random()*100+"%";
-
-
-flower.style.animationDelay=
-Math.random()*5+"s";
-
-
-document.body.appendChild(flower);
-
-
-}
 
 }
 
