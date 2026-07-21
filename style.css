@@ -1,0 +1,151 @@
+*{
+    box-sizing:border-box;
+}
+
+
+body{
+
+    margin:0;
+    height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-family:'Arial', sans-serif;
+
+    background:
+    linear-gradient(
+    135deg,
+    #ffd1e6,
+    #fff5fa
+    );
+
+    overflow:hidden;
+
+}
+
+
+
+.card{
+
+    background:white;
+
+    width:85%;
+    max-width:550px;
+
+    padding:40px;
+
+    text-align:center;
+
+    border-radius:30px;
+
+    box-shadow:
+    0 15px 40px rgba(0,0,0,0.15);
+
+    animation:appear 1s;
+
+}
+
+
+
+h1{
+
+    color:#ff4f91;
+
+    font-size:42px;
+
+}
+
+
+
+p{
+
+    color:#555;
+
+    font-size:20px;
+
+    line-height:1.7;
+
+}
+
+
+
+button{
+
+    margin-top:25px;
+
+    padding:15px 40px;
+
+    border:none;
+
+    border-radius:50px;
+
+    background:#ff4f91;
+
+    color:white;
+
+    font-size:20px;
+
+    cursor:pointer;
+
+    transition:0.3s;
+
+}
+
+
+
+button:hover{
+
+    transform:scale(1.1);
+
+}
+
+
+
+.floating-hearts{
+
+    position:absolute;
+
+    top:10%;
+
+    font-size:35px;
+
+    animation:float 3s infinite;
+
+}
+
+
+
+@keyframes float{
+
+    0%{
+        transform:translateY(0);
+    }
+
+    50%{
+        transform:translateY(40px);
+    }
+
+    100%{
+        transform:translateY(0);
+    }
+
+}
+
+
+
+@keyframes appear{
+
+    from{
+        opacity:0;
+        transform:scale(0.8);
+    }
+
+
+    to{
+        opacity:1;
+        transform:scale(1);
+    }
+
+}
